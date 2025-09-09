@@ -1,6 +1,6 @@
 # Angular Jest Starter
 
-![Angular](https://img.shields.io/badge/Angular-v18-red?logo=angular)  
+![Angular](https://img.shields.io/badge/Angular-v20-red?logo=angular)  
 ![Jest](https://img.shields.io/badge/Jest-configured-green?logo=jest)  
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -23,7 +23,7 @@ Su propósito es **ahorrar tiempo en la configuración inicial**, ofreciendo una
 ## 📦 Requisitos
 
 - [Node.js](https://nodejs.org/) (versión recomendada: LTS)
-- [Angular CLI](https://angular.io/cli)
+- [Angular CLI](https://angular.dev/cli)
 
 ---
 
