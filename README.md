@@ -1,59 +1,87 @@
-# AngularJestStarter
+# Angular Jest Starter
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.2.
+![Angular](https://img.shields.io/badge/Angular-v18-red?logo=angular)  
+![Jest](https://img.shields.io/badge/Jest-configured-green?logo=jest)  
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## Development server
+**Angular Jest Starter** es un proyecto base pensado como *boilerplate* para iniciar nuevas aplicaciones en Angular con **Jest** ya configurado como framework de pruebas.
 
-To start a local development server, run:
+Su propósito es **ahorrar tiempo en la configuración inicial**, ofreciendo una estructura limpia y lista para enfocarse directamente en el desarrollo de la lógica de negocio y la escritura de tests.
 
-```bash
-ng serve
+---
+
+## ✨ Características
+
+- ⚡ Proyecto generado con **Angular CLI**.
+- 🧪 **Jest** configurado como test runner y framework de pruebas unitarias.
+- 📂 Estructura mínima y clara, ideal para clonar y comenzar de inmediato.
+- 🔧 Scripts de npm listos para correr, testear y construir el proyecto.
+- 🚀 Enfocado en **mejores prácticas** de desarrollo en Angular.
+
+---
+
+## 📦 Requisitos
+
+- [Node.js](https://nodejs.org/) (versión recomendada: LTS)
+- [Angular CLI](https://angular.io/cli)
+
+---
+
+## 🚀 Uso
+
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/angular-jest-starter.git
+   cd angular-jest-starter
+   ```
+
+2. Instalar dependencias:
+   ```bash
+   npm install
+   ```
+
+3. Ejecutar la aplicación en modo desarrollo:
+   ```bash
+   npm start
+   ```
+
+4. Ejecutar los tests con Jest:
+   ```bash
+   npm test
+   ```
+
+---
+
+## 📂 Estructura básica
+
+```
+angular-jest-starter/
+│
+├── src/                 # Código fuente principal
+├── jest.config.js       # Configuración de Jest
+├── tsconfig.json        # Configuración de TypeScript
+├── package.json         # Dependencias y scripts
+└── README.md            # Este archivo
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🛠️ Scripts disponibles
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- \`npm start\` → Inicia el servidor de desarrollo
+- \`npm build\` → Compila la aplicación para producción
+- \`npm test\` → Ejecuta los tests unitarios con Jest
+- \`npm run test:watch\` → Ejecuta los tests en modo observador
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🤝 Contribución
 
-```bash
-ng generate --help
-```
+¡Las contribuciones son bienvenidas!  
+Si encuentras algún error o mejora, abre un **issue** o envía un **pull request**.
 
-## Building
+---
 
-To build the project run:
+## 📄 Licencia
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Este proyecto está bajo la licencia [MIT](LICENSE).  
