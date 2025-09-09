@@ -59,6 +59,7 @@ angular-jest-starter/
 │
 ├── src/                 # Código fuente principal
 ├── jest.config.js       # Configuración de Jest
+├── setup-jest.js       # Configuración de Jest
 ├── tsconfig.json        # Configuración de TypeScript
 ├── package.json         # Dependencias y scripts
 └── README.md            # Este archivo
