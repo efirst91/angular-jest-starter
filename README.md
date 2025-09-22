@@ -71,8 +71,9 @@ angular-jest-starter/
 
 - \`npm start\` → Inicia el servidor de desarrollo
 - \`npm build\` → Compila la aplicación para producción
-- \`npm test\` → Ejecuta los tests unitarios con Jest
+- \`npm run test\` → Ejecuta los tests unitarios con Jest
 - \`npm run test:watch\` → Ejecuta los tests en modo observador
+- \`npm run test:coverage\` → Ejecuta los tests y visualiza el reporte de cobertura del código
 
 ---
 
