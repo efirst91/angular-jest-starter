@@ -4,87 +4,87 @@
 ![Jest](https://img.shields.io/badge/Jest-configured-green?logo=jest)  
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-**Angular Jest Starter** es un proyecto base pensado como *boilerplate* para iniciar nuevas aplicaciones en Angular con **Jest** ya configurado como framework de pruebas.
+**Angular Jest Starter** is a base project intended as a *boilerplate* to start new applications in Angular with **Jest** already configured as the testing framework.
 
-Su propósito es **ahorrar tiempo en la configuración inicial**, ofreciendo una estructura limpia y lista para enfocarse directamente en el desarrollo de la lógica de negocio y la escritura de tests.
-
----
-
-## ✨ Características
-
-- ⚡ Proyecto generado con **Angular CLI**.
-- 🧪 **Jest** configurado como test runner y framework de pruebas unitarias.
-- 📂 Estructura mínima y clara, ideal para clonar y comenzar de inmediato.
-- 🔧 Scripts de npm listos para correr, testear y construir el proyecto.
-- 🚀 Enfocado en **mejores prácticas** de desarrollo en Angular.
+Its purpose is to **save time in the initial setup**, offering a clean structure ready to focus directly on business logic development and writing tests.
 
 ---
 
-## 📦 Requisitos
+## ✨ Features
 
-- [Node.js](https://nodejs.org/) (versión recomendada: LTS)
+- ⚡ Project generated with **Angular CLI**.
+- 🧪 **Jest** configured as the test runner and unit testing framework.
+- 📂 Minimal and clear structure, ideal for cloning and starting immediately.
+- 🔧 npm scripts ready to run, test and build the project.
+- 🚀 Focused on **best practices** for Angular development.
+
+---
+
+## 📦 Requirements
+
+- [Node.js](https://nodejs.org/) (recommended version: LTS)
 - [Angular CLI](https://angular.dev/cli)
 
 ---
 
-## 🚀 Uso
+## 🚀 Usage
 
-1. Clonar el repositorio:
+1. Clone the repository:
    ```bash
    git clone https://github.com/tu-usuario/angular-jest-starter.git
    cd angular-jest-starter
    ```
 
-2. Instalar dependencias:
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-3. Ejecutar la aplicación en modo desarrollo:
+3. Run the application in development mode:
    ```bash
    npm start
    ```
 
-4. Ejecutar los tests con Jest:
+4. Run tests with Jest:
    ```bash
-   npm test
+   npm run test
    ```
 
 ---
 
-## 📂 Estructura básica principal
+## 📂 Main project structure
 
 ```
 angular-jest-starter/
 │
-├── src/                 # Código fuente principal
-├── public/              # Assets públicos
-├── jest.config.js       # Configuración de Jest
-├── jest-setup.js        # Configuración de Jest
-├── tsconfig.json        # Configuración de TypeScript
-├── package.json         # Dependencias y scripts
-└── README.md            # Este archivo
+├── src/                 # Main source code
+├── public/              # Public assets
+├── jest.config.js       # Jest configuration
+├── jest-setup.js        # Jest setup
+├── tsconfig.json        # TypeScript configuration
+├── package.json         # Dependencies and scripts
+└── README.md            # This file
 ```
 
 ---
 
-## 🛠️ Scripts disponibles
+## 🛠️ Available scripts
 
-- \`npm start\` → Inicia el servidor de desarrollo
-- \`npm build\` → Compila la aplicación para producción
-- \`npm run test\` → Ejecuta los tests unitarios con Jest
-- \`npm run test:watch\` → Ejecuta los tests en modo observador
-- \`npm run test:coverage\` → Ejecuta los tests y visualiza el reporte de cobertura del código
-
----
-
-## 🤝 Contribución
-
-¡Las contribuciones son bienvenidas!  
-Si encuentras algún error o mejora, abre un **issue** o envía un **pull request**.
+- `npm start` → Starts the development server
+- `npm build` → Builds the application for production
+- `npm run test` → Runs unit tests with Jest
+- `npm run test:watch` → Runs tests in watch mode
+- `npm run test:coverage` → Runs tests and shows the code coverage report
 
 ---
 
-## 📄 Licencia
+## 🤝 Contribution
 
-Este proyecto está bajo la licencia [MIT](LICENSE).  
+Contributions are welcome!  
+If you find any bug or improvement, open an **issue** or submit a **pull request**.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT](LICENSE) license.
