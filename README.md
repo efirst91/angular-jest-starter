@@ -52,14 +52,15 @@ Su propósito es **ahorrar tiempo en la configuración inicial**, ofreciendo una
 
 ---
 
-## 📂 Estructura básica
+## 📂 Estructura básica principal
 
 ```
 angular-jest-starter/
 │
 ├── src/                 # Código fuente principal
+├── public/              # Assets públicos
 ├── jest.config.js       # Configuración de Jest
-├── setup-jest.js       # Configuración de Jest
+├── jest-setup.js        # Configuración de Jest
 ├── tsconfig.json        # Configuración de TypeScript
 ├── package.json         # Dependencias y scripts
 └── README.md            # Este archivo
@@ -71,8 +72,9 @@ angular-jest-starter/
 
 - \`npm start\` → Inicia el servidor de desarrollo
 - \`npm build\` → Compila la aplicación para producción
-- \`npm test\` → Ejecuta los tests unitarios con Jest
+- \`npm run test\` → Ejecuta los tests unitarios con Jest
 - \`npm run test:watch\` → Ejecuta los tests en modo observador
+- \`npm run test:coverage\` → Ejecuta los tests y visualiza el reporte de cobertura del código
 
 ---
 

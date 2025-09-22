@@ -22,7 +22,13 @@
       }
     ]
   },
-  "private": true,
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/efirst91/angular-jest-starter"
+  },
+  "keywords": ["angular", "template", "starter", "boilerplate", "testing", "jest"],
   "dependencies": {
     "@angular/common": "^20.2.0",
     "@angular/compiler": "^20.2.0",
