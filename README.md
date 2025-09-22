@@ -16,7 +16,6 @@ Its purpose is to **save time in the initial setup**, offering a clean structure
 - 🧪 **Jest** configured as the test runner and unit testing framework.
 - 📂 Minimal and clear structure, ideal for cloning and starting immediately.
 - 🔧 npm scripts ready to run, test and build the project.
-- 🚀 Focused on **best practices** for Angular development.
 
 ---
 
