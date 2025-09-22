@@ -52,14 +52,15 @@ Su propósito es **ahorrar tiempo en la configuración inicial**, ofreciendo una
 
 ---
 
-## 📂 Estructura básica
+## 📂 Estructura básica principal
 
 ```
 angular-jest-starter/
 │
 ├── src/                 # Código fuente principal
+├── public/              # Assets públicos
 ├── jest.config.js       # Configuración de Jest
-├── setup-jest.js       # Configuración de Jest
+├── jest-setup.js        # Configuración de Jest
 ├── tsconfig.json        # Configuración de TypeScript
 ├── package.json         # Dependencias y scripts
 └── README.md            # Este archivo
